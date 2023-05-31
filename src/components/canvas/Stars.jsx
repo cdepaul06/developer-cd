@@ -1,7 +1,17 @@
-import { useState, useRef, Suspense } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { useState, useRef, Suspense, useEffect } from "react";
+import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
+
+const Background = () => {
+  const { gl } = useThree();
+
+  useEffect(() => {
+    gl.setClearColor("#0f4461");
+  }, [gl]);
+
+  return null;
+};
 
 const Stars = (props) => {
   const ref = useRef();
@@ -33,10 +43,10 @@ const StarsCanvas = () => {
   return (
     <div className='w-full h-auto absolute inset-0 z-[-1]'>
       <Canvas camera={{ position: [0, 0, 1] }}>
+        <Background />
         <Suspense fallback={null}>
           <Stars />
         </Suspense>
-
         <Preload all />
       </Canvas>
     </div>

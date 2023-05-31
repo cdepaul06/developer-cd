@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  ega,
+  northStar,
+  allstate,
+  regency,
 } from "../assets";
 
 export const navLinks = [
@@ -116,83 +116,82 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "United States Marine",
+    company_name: "United States Marine Corps",
+    icon: ega,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2008 - Aug 2013",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted combat operations in support of Operation Enduring Freedom in Afghanistan.",
+      "Achieved the rank of Corporal (E-4) and served as a Team Leader.",
+      "Implemented a battilion-wide physical training program.",
+      "Received an honorable discharge in August 2013 after active duty service was complete.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Project Manager",
+    company_name: "NorthStar Recovery Services",
+    icon: northStar,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2013 - Apr 2015",
+    points: [
+      "Conducted diaster recovery services for commercial clients in which water, fire, or mold was present.",
+      "Managed teams of 15-25 employees and ensured that all projects were completed on time and within budget.",
+      "Ensured that all IICRC standards were met and that all work was completed to the highest quality.",
+    ],
+  },
+  {
+    title: "Manager",
+    company_name: "Allstate Insurance Company",
+    icon: allstate,
+    iconBg: "#E6DEDD",
+    date: "Apr 2015 - Nov 2022",
+    points: [
+      "Led highly specialized teams of 15-20 employees in the handling of complex insurance questions.",
+      "Received numerous performance bonuses for going above and beyond to meet business goals.",
+      "Received a peer award in 2016.",
+      "Participated in bi-monthly coaching sessions, providing constructive feedback to direct report employees.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Regency Technologies",
+    icon: regency,
+    iconBg: "#E6DEDD",
+    date: "Nov 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams including product managers and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in peer code reviews and providing meaningful feedback to internal developers.",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "Please tell everyone about the great work I do!",
+    name: "TBD",
+    designation: "CEO",
+    company: "Company",
+    image:
+      "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "Please tell everyone about the great work I do!",
+    name: "TBD",
+    designation: "CEO",
+    company: "Company",
+    image:
+      "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "Please tell everyone about the great work I do!",
+    name: "TBD",
+    designation: "CEO",
+    company: "Company",
+    image:
+      "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
   },
 ];
 
