@@ -38,10 +38,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a skilled developer that likes to build new exciting things. I
-        specialize in JavaScript, React, Node.js, and I have recently began
-        learning Three.js. I am also well versed in Java, C#, Visual Basic,
-        .NET, Redux, and API's. My current work is developing an internal
+        I am currently a senior at Kent State University, and I am pursuing a BS
+        in Information Technology with a concentration in Application
+        Development (expected graduation Dec 2023). I recently began my career
+        as a developer at Regency Technologies, but I am always looking for new
+        opportunities to grow and learn.
+        <br /> <br />I am a skilled developer that likes to build new exciting
+        things. I specialize in JavaScript, React, Node.js, and I have recently
+        began learning Three.js. I am also well versed in Java, C#, Visual
+        Basic, .NET, Redux, and API's. My current work is developing an internal
         warehouse management system called PLWTO, which uses React.js, Redux,
         and a C# API. I also enjoy freelance work, so if you're looking for a
         developer, feel free to contact me and we will develop something
