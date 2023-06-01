@@ -36,6 +36,7 @@ import spaceinvaders from "./spaceinvaders.png";
 import timer from "./timer.png";
 import coachingtool from "./coachingtool.png";
 import ptotracker from "./ptotracker.png";
+import developer from "./developer.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   timer,
   coachingtool,
   ptotracker,
+  developer,
 };

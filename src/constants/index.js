@@ -26,6 +26,7 @@ import {
   timer,
   coachingtool,
   ptotracker,
+  developer,
 } from "../assets";
 
 export const navLinks = [
@@ -223,7 +224,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: coachingtool,
+    image: developer,
     source_code_link: "https://github.com/",
   },
   {
