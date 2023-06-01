@@ -15,9 +15,6 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   ega,
   northStar,
@@ -226,7 +223,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: coachingtool,
     source_code_link: "https://github.com/",
   },
   {

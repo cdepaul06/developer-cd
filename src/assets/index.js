@@ -30,9 +30,6 @@ import allstate from "./allstate.png";
 import regency from "./regency.png";
 
 // Project icons
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import plwto from "./plwto.png";
 import golfstats from "./golfstats.png";
 import spaceinvaders from "./spaceinvaders.png";
@@ -62,9 +59,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   ega,
   northStar,
   allstate,
