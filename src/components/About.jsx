@@ -43,9 +43,9 @@ const About = () => {
         Development (expected graduation Dec 2023). I recently began my career
         as a developer at Regency Technologies, but I am always looking for new
         opportunities to grow and learn.
-        <br /> <br />I am a skilled developer that likes to build new exciting
-        things. I specialize in JavaScript, React, Node.js, and I have recently
-        began learning Three.js. I am also well versed in Java, C#, Visual
+        <br /> <br />I am a skilled developer that likes to build new and
+        exciting things. I specialize in JavaScript, React.js, C#, and I have
+        recently began learning Three.js. I am also well versed in Java, Visual
         Basic, .NET, Redux, and API's. I also have experience with content
         creation using Adobe Photoshop and Blender 3D. My current work is
         developing an internal warehouse management system called PLWTO, which
