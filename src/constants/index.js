@@ -295,8 +295,8 @@ const projects = [
     name: "Space Invaders Clone",
     description:
       "Developed as a project for my Advanced Java class at Kent State University. It was built using Visual Studio Code and Java/JavaFX." +
-      "The game is incomplete as I ran out of time to finish the development of the project before it was due (I am currently working and attending school full time, so time is scarce)" +
-      "It was extremely fun to develop and the base functionality of the game is there, but it is missing a few key features. I plan to finish this project in the near future.",
+      " The game is incomplete as I ran out of time to finish the development of the project before it was due (I am currently working and attending school full time, so time is scarce)." +
+      " It was extremely fun to develop and the base functionality of the game is there, but it is missing a few key features. I plan to finish this project in the near future.",
     tags: [
       {
         name: "visual studio",
@@ -322,7 +322,7 @@ const projects = [
     name: "Countdown Timer",
     description:
       "A mobile application developed as a project for my Mobile Applications class at Kent State University. It was built using Android Studio and Java." +
-      "The app allows the user to set a timer for a specific amount of time, and then the app will count down to zero.",
+      " The app allows the user to set a timer for a specific amount of time, and then the app will count down to zero.",
     tags: [
       {
         name: "android studio",
@@ -344,8 +344,8 @@ const projects = [
     name: "Allstate Coaching Tool",
     description:
       "This is the second application I decided to develop. It is a desktop application that allows managers to track and manage metrics for their direct reports, and provides a platform for coaching sessions." +
-      "This was a tool that I built for my leadership team at Allstate Insurance Company." +
-      "It was not an official application, but it solved the problem of not having an employees metrics all in one easy to access place while conducting a coaching session.",
+      " This was a tool that I built for my leadership team at Allstate Insurance Company." +
+      " It was not an official application, but it solved the problem of not having an employees metrics all in one easy to access place while conducting a coaching session.",
     tags: [
       {
         name: "windows forms",
@@ -367,8 +367,8 @@ const projects = [
     name: "Allstate PTO Tracker",
     description:
       "My first ever developed application. I admit the code could be much better, but it was my first attempt and I was pleased with the functionality at the time." +
-      "It is a desktop application that allows frontline employees to easily track how many PTO days they have used and have remaining for a calendar year." +
-      "As a leader I would get asked this question throughout the year, and this tool allowed the employees to better track their time off.",
+      " It is a desktop application that allows frontline employees to easily track how many PTO days they have used and have remaining for a calendar year." +
+      " As a leader I would get asked this question throughout the year, and this tool allowed the employees to better track their time off.",
     tags: [
       {
         name: "windows forms",
