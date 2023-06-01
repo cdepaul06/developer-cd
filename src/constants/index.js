@@ -23,6 +23,7 @@ import {
   northStar,
   allstate,
   regency,
+  plwto,
 } from "../assets";
 
 export const navLinks = [
@@ -46,12 +47,12 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "React Native Developer",
+    icon: mobile,
   },
   {
     title: "Content Creator",
@@ -197,20 +198,163 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Developer CD",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A beautiful and responsive portfolio website built using React.js/Three.js, vite, and Tailwind CSS." +
+      "This was my first project utilizing Three.js, vite, and tailwindcss, and I am very happy with the results." +
+      "I plan to continue to add to this project as I learn new technologies and improve my skills.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "PLWTO",
+    description:
+      "The current ongoing project that I am working on with my development team. It is a warehouse management system to help manage the inventory of a warehouse." +
+      "It is designed using React.js, Redux, CSS, and a C# API backend. I am responsible for both the frontend and backend development of this project." +
+      "There is no link to the source code to this project as it is intellectual property of Regency Technologies.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "csharp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".net",
+        color: "green-text-gradient",
+      },
+      {
+        name: "entity framework",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: plwto,
+  },
+  {
+    name: "Golf Statistic Tracker",
+    description:
+      "Developed as a project for my Advanced Visual Basic class at Kent State University. It was built using Visual Studio, Visual Basic, Windows Forms, and Entity Framework." +
+      "The app allows the addition of new golfers, courses, rounds, and equipment. It allows the user to track their golf statistics and view them in a variety of ways." +
+      "My goal is to eventually develop this into a full fledged mobile application with a web counter-part. The mobile application will be developed using React Native, and the web application will be developed using React.js/Three.js and Redux.",
+    tags: [
+      {
+        name: "visual studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "visual basic",
+        color: "green-text-gradient",
+      },
+      {
+        name: "windows forms",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "entity framework",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Space Invaders Clone",
+    description:
+      "Developed as a project for my Advanced Java class at Kent State University. It was built using Visual Studio Code and Java/JavaFX." +
+      "The game is incomplete as I ran out of time to finish the development of the project before it was due (I am currently working and attending school full time, so time is scarce)" +
+      "It was extremely fun to develop and the base functionality of the game is there, but it is missing a few key features. I plan to finish this project in the near future.",
+    tags: [
+      {
+        name: "visual studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "visual basic",
+        color: "green-text-gradient",
+      },
+      {
+        name: "windows forms",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "entity framework",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Countdown Timer",
+    description:
+      "A mobile application developed as a project for my Mobile Applications class at Kent State University. It was built using Android Studio and Java." +
+      "The app allows the user to set a timer for a specific amount of time, and then the app will count down to zero.",
+    tags: [
+      {
+        name: "android studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "java",
+        color: "green-text-gradient",
+      },
+      {
+        name: "xml",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Allstate Coaching Tool",
+    description:
+      "This is the second application I decided to develop. It is a desktop application that allows managers to track and manage metrics for their direct reports, and provides a platform for coaching sessions." +
+      "This was a tool that I built for my leadership team at Allstate Insurance Company." +
+      "It was not an official application, but it solved the problem of not having an employees metrics all in one easy to access place while conducting a coaching session.",
+    tags: [
+      {
+        name: "windows forms",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "visual basic",
+        color: "green-text-gradient",
+      },
+      {
+        name: ".net",
         color: "pink-text-gradient",
       },
     ],
@@ -218,45 +362,26 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Allstate PTO Tracker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "My first ever developed application. I admit the code could be much better, but it was my first attempt and I was pleased with the functionality at the time." +
+      "It is a desktop application that allows frontline employees to easily track how many PTO days they have used and have remaining for a calendar year." +
+      "As a leader I would get asked this question throughout the year, and this tool allowed the employees to better track their time off.",
     tags: [
       {
-        name: "react",
+        name: "windows forms",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "visual basic",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: ".net",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];
