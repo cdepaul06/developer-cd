@@ -46,11 +46,12 @@ const About = () => {
         <br /> <br />I am a skilled developer that likes to build new exciting
         things. I specialize in JavaScript, React, Node.js, and I have recently
         began learning Three.js. I am also well versed in Java, C#, Visual
-        Basic, .NET, Redux, and API's. My current work is developing an internal
-        warehouse management system called PLWTO, which uses React.js, Redux,
-        and a C# API. I also enjoy freelance work, so if you're looking for a
-        developer, feel free to contact me and we will develop something
-        amazing!
+        Basic, .NET, Redux, and API's. I also have experience with content
+        creation using Adobe Photoshop and Blender 3D. My current work is
+        developing an internal warehouse management system called PLWTO, which
+        uses React.js, Redux, and a C# API. I also enjoy freelance work, so if
+        you're looking for a developer, feel free to contact me and we will
+        create something amazing!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

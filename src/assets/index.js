@@ -34,6 +34,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import plwto from "./plwto.png";
+import golfstats from "./golfstats.png";
+import spaceinvaders from "./spaceinvaders.png";
+import timer from "./timer.png";
+import coachingtool from "./coachingtool.png";
+import ptotracker from "./ptotracker.png";
 
 export {
   logo,
@@ -65,4 +70,9 @@ export {
   allstate,
   regency,
   plwto,
+  golfstats,
+  spaceinvaders,
+  timer,
+  coachingtool,
+  ptotracker,
 };

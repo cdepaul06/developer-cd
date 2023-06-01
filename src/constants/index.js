@@ -24,6 +24,11 @@ import {
   allstate,
   regency,
   plwto,
+  golfstats,
+  spaceinvaders,
+  timer,
+  coachingtool,
+  ptotracker,
 } from "../assets";
 
 export const navLinks = [
@@ -201,8 +206,8 @@ const projects = [
     name: "Developer CD",
     description:
       "A beautiful and responsive portfolio website built using React.js/Three.js, vite, and Tailwind CSS." +
-      "This was my first project utilizing Three.js, vite, and tailwindcss, and I am very happy with the results." +
-      "I plan to continue to add to this project as I learn new technologies and improve my skills.",
+      " This was my first project utilizing Three.js, vite, and tailwindcss, and I am very happy with the results." +
+      " I plan to continue to add to this project as I learn new technologies and improve my skills.",
     tags: [
       {
         name: "react.js",
@@ -228,8 +233,8 @@ const projects = [
     name: "PLWTO",
     description:
       "The current ongoing project that I am working on with my development team. It is a warehouse management system to help manage the inventory of a warehouse." +
-      "It is designed using React.js, Redux, CSS, and a C# API backend. I am responsible for both the frontend and backend development of this project." +
-      "There is no link to the source code to this project as it is intellectual property of Regency Technologies.",
+      " It is designed using React.js, Redux, CSS, and a C# API backend. I am responsible for both the frontend and backend development of this project." +
+      " There is no link to the source code to this project as it is intellectual property of Regency Technologies.",
     tags: [
       {
         name: "react.js",
@@ -266,8 +271,8 @@ const projects = [
     name: "Golf Statistic Tracker",
     description:
       "Developed as a project for my Advanced Visual Basic class at Kent State University. It was built using Visual Studio, Visual Basic, Windows Forms, and Entity Framework." +
-      "The app allows the addition of new golfers, courses, rounds, and equipment. It allows the user to track their golf statistics and view them in a variety of ways." +
-      "My goal is to eventually develop this into a full fledged mobile application with a web counter-part. The mobile application will be developed using React Native, and the web application will be developed using React.js/Three.js and Redux.",
+      " The app allows the addition of new golfers, courses, rounds, and equipment. It allows the user to track their golf statistics and view them in a variety of ways." +
+      " My goal is to eventually develop this into a full fledged mobile application with a web counter-part. The mobile application will be developed using React Native, and the web application will be developed using React.js/Three.js and Redux.",
     tags: [
       {
         name: "visual studio",
@@ -286,7 +291,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: golfstats,
     source_code_link: "https://github.com/",
   },
   {
@@ -313,7 +318,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: spaceinvaders,
     source_code_link: "https://github.com/",
   },
   {
@@ -335,7 +340,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: timer,
     source_code_link: "https://github.com/",
   },
   {
@@ -358,7 +363,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: coachingtool,
     source_code_link: "https://github.com/",
   },
   {
@@ -381,7 +386,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ptotracker,
     source_code_link: "https://github.com/",
   },
 ];
