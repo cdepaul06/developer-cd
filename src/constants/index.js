@@ -254,7 +254,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "entity framework",
+        name: "entityframework",
         color: "pink-text-gradient",
       },
       {
@@ -272,11 +272,11 @@ const projects = [
       " My goal is to eventually develop this into a full fledged mobile application with a web counter-part. The mobile application will be developed using React Native, and the web application will be developed using React.js/Three.js and Redux.",
     tags: [
       {
-        name: "visual studio",
+        name: "visualstudio",
         color: "blue-text-gradient",
       },
       {
-        name: "visual basic",
+        name: "visualbasic",
         color: "green-text-gradient",
       },
       {
@@ -284,7 +284,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "entity framework",
+        name: "entityframework",
         color: "blue-text-gradient",
       },
     ],
@@ -299,19 +299,19 @@ const projects = [
       " It was extremely fun to develop and the base functionality of the game is there, but it is missing a few key features. I plan to finish this project in the near future.",
     tags: [
       {
-        name: "visual studio",
+        name: "visualstudio",
         color: "blue-text-gradient",
       },
       {
-        name: "visual basic",
+        name: "visualbasic",
         color: "green-text-gradient",
       },
       {
-        name: "windows forms",
+        name: "windowsforms",
         color: "pink-text-gradient",
       },
       {
-        name: "entity framework",
+        name: "entityframework",
         color: "blue-text-gradient",
       },
     ],
@@ -325,7 +325,7 @@ const projects = [
       " The app allows the user to set a timer for a specific amount of time, and then the app will count down to zero.",
     tags: [
       {
-        name: "android studio",
+        name: "androidstudio",
         color: "blue-text-gradient",
       },
       {
@@ -348,11 +348,11 @@ const projects = [
       " It was not an official application, but it solved the problem of not having an employees metrics all in one easy to access place while conducting a coaching session.",
     tags: [
       {
-        name: "windows forms",
+        name: "windowsforms",
         color: "blue-text-gradient",
       },
       {
-        name: "visual basic",
+        name: "visualbasic",
         color: "green-text-gradient",
       },
       {
@@ -371,11 +371,11 @@ const projects = [
       " As a leader I would get asked this question throughout the year, and this tool allowed the employees to better track their time off.",
     tags: [
       {
-        name: "windows forms",
+        name: "windowsforms",
         color: "blue-text-gradient",
       },
       {
-        name: "visual basic",
+        name: "visualbasic",
         color: "green-text-gradient",
       },
       {

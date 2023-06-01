@@ -3,7 +3,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
-// ! Sketchfab.com is a great place for different models (use this when changing the desktop model)
+// ! Sketchfab.com is a great place for different models (use this when changing the model)
 const Abstract = ({ isMobile }) => {
   const computer = useGLTF("./abstract/scene.gltf");
 
@@ -28,7 +28,7 @@ const Abstract = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 1.2 : 1.5}
-        position={isMobile ? [0, 0, -0.3] : [0, -0.5, -0.2]}
+        position={isMobile ? [0, -0.9, -0.3] : [0, -0.9, -0.2]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
