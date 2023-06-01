@@ -16,7 +16,7 @@ const Abstract = ({ isMobile }) => {
   return (
     <mesh ref={mesh}>
       <hemisphereLight intensity={0.25} groundColor='black' />
-      <pointLight intensity={1} />
+      <pointLight intensity={3} />
       <spotLight
         position={[-20, 65, 25]}
         angle={0.12}
@@ -35,7 +35,7 @@ const Abstract = ({ isMobile }) => {
   );
 };
 
-// ! This handles most of the 3D rendering, might need to make adjustments after you change the model1
+// ! This handles most of the 3D rendering, might need to make adjustments after you change the model
 const AbstractCanvas = () => {
   const [isMobile, setisMobile] = useState(false);
 
