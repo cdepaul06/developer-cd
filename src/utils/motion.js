@@ -37,6 +37,22 @@ export const fadeIn = (direction, type, delay, duration) => {
   };
 };
 
+export const fadeInMobile = (delay, duration) => {
+  return {
+    hidden: {
+      opacity: 0,
+    },
+    show: {
+      opacity: 1,
+      transition: {
+        delay: delay,
+        duration: duration,
+        ease: "easeOut",
+      },
+    },
+  };
+};
+
 export const zoomIn = (delay, duration) => {
   return {
     hidden: {

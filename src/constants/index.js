@@ -175,7 +175,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial: "Please tell everyone about the great work I do!",
-    name: "TBD",
+    name: "Your Name Here",
     designation: "CEO",
     company: "Company",
     image:
@@ -183,7 +183,7 @@ const testimonials = [
   },
   {
     testimonial: "Please tell everyone about the great work I do!",
-    name: "TBD",
+    name: "Another Name Here",
     designation: "CEO",
     company: "Company",
     image:
@@ -191,7 +191,7 @@ const testimonials = [
   },
   {
     testimonial: "Please tell everyone about the great work I do!",
-    name: "TBD",
+    name: "Third Name Here",
     designation: "CEO",
     company: "Company",
     image:

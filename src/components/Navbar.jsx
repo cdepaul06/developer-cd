@@ -34,9 +34,20 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              } hover:text-[#00c45c] text-[18px] font-medium cursor-pointer`}
+                active === link.title
+                  ? "text-white relative"
+                  : "text-secondary relative"
+              } group hover:text-[#00c45c] text-[18px] font-medium cursor-pointer`}
+              style={{
+                "--tw-shadow": "inset 0 -2px 0 0 #00c45c",
+                transition: "box-shadow 0.3s ease-in-out",
+                boxShadow: "var(--tw-shadow)",
+              }}
               onClick={() => setActive(link.title)}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.boxShadow = "inset 0 -2px 0 0 #00c45c")
+              }
+              onMouseLeave={(e) => (e.currentTarget.style.boxShadow = "")}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
