@@ -41,7 +41,7 @@ const Navbar = () => {
               style={{
                 "--tw-shadow": "inset 0 -2px 0 0 #00c45c",
                 transition: "box-shadow 0.3s ease-in-out",
-                boxShadow: "var(--tw-shadow)",
+                boxShadow: active === link.title ? "var(--tw-shadow)" : "",
               }}
               onClick={() => setActive(link.title)}
               onMouseEnter={(e) =>
