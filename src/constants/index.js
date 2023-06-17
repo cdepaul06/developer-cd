@@ -300,20 +300,16 @@ const projects = [
       " It was extremely fun to develop and the base functionality of the game is there, but it is missing a few key features. I plan to finish this project in the near future.",
     tags: [
       {
-        name: "visualstudio",
+        name: "visualstudiocode",
         color: "blue-text-gradient",
       },
       {
-        name: "visualbasic",
+        name: "java",
         color: "green-text-gradient",
       },
       {
-        name: "windowsforms",
+        name: "javafx",
         color: "pink-text-gradient",
-      },
-      {
-        name: "entityframework",
-        color: "blue-text-gradient",
       },
     ],
     image: spaceinvaders,
