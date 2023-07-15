@@ -37,6 +37,7 @@ import timer from "./timer.png";
 import coachingtool from "./coachingtool.png";
 import ptotracker from "./ptotracker.png";
 import developer from "./developer.png";
+import coleslawn from "./coleslawn.png";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   coachingtool,
   ptotracker,
   developer,
+  coleslawn,
 };

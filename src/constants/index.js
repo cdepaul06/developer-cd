@@ -27,6 +27,7 @@ import {
   coachingtool,
   ptotracker,
   developer,
+  coleslawn,
 } from "../assets";
 
 export const navLinks = [
@@ -97,24 +98,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -201,6 +190,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Cole's Lawn Care",
+    description:
+      "A simple website I designed for my two friends lawn care service." +
+      " It was built using React.js, Tailwind CSS, and Vite." +
+      " The website includes an image carousel, a contact form, and a services section." +
+      " The website was designed and developed to be easily edited by the owner of the business." +
+      " It includes global constants for easy additions, removals, and edits to the website.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: coleslawn,
+    source_code_link: "https://github.com/cdepaul06/ColesLawnCare",
+  },
+  {
     name: "Developer CD",
     description:
       "A beautiful and responsive portfolio website built using React.js/Three.js, vite, and Tailwind CSS." +
@@ -225,7 +239,7 @@ const projects = [
       },
     ],
     image: developer,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cdepaul06/developer-cd",
   },
   {
     name: "PLWTO",
@@ -290,7 +304,7 @@ const projects = [
       },
     ],
     image: golfstats,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cdepaul06/GolfStatistics",
   },
   {
     name: "Space Invaders Clone",
@@ -313,7 +327,7 @@ const projects = [
       },
     ],
     image: spaceinvaders,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cdepaul06/spaceinvadersclone",
   },
   {
     name: "Countdown Timer",
@@ -335,7 +349,7 @@ const projects = [
       },
     ],
     image: timer,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cdepaul06/Timer",
   },
   {
     name: "Allstate Coaching Tool",
@@ -358,7 +372,7 @@ const projects = [
       },
     ],
     image: coachingtool,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cdepaul06/allstateCoachingTool",
   },
   {
     name: "Allstate PTO Tracker",
@@ -381,7 +395,7 @@ const projects = [
       },
     ],
     image: ptotracker,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cdepaul06/allstatePTOTracker",
   },
 ];
 
