@@ -31,15 +31,21 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    if (form.name === "" || form.email === "" || form.message === "") {
+      alert("Please fill out all fields.");
+      setLoading(false);
+      return;
+    }
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Chris DePaul",
+          to_name: import.meta.env.VITE_APP_NAME,
           from_email: form.email,
-          to_email: "chris@cd-developer.com",
+          to_email: import.meta.env.VITE_APP_EMAIL,
           message: form.message,
         },
         import.meta.env.VITE_APP_PUBLIC_KEY
