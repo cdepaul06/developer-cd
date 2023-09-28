@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, textVariant, fadeInMobile } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -15,8 +15,12 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+  const isMobile = window.innerWidth < 768;
+
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={!isMobile ? fadeIn("up", "spring", index * 0.5, 0.75) : ""}
+    >
       <Tilt
         options={{
           max: 45,
