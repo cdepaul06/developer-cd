@@ -167,26 +167,29 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "Please tell everyone about the great work I do!",
-    name: "Your Name Here",
-    designation: "CEO",
-    company: "Company",
+    testimonial:
+      "Chris was able to build us a functional website in a short amount of time. He was very easy to work with and was able to make changes quickly.",
+    name: "Cole Underwood",
+    designation: "Owner",
+    company: "Cole's Lawn Care",
     image:
       "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
   },
   {
-    testimonial: "Please tell everyone about the great work I do!",
-    name: "Another Name Here",
-    designation: "CEO",
-    company: "Company",
+    testimonial:
+      "Chris was always developing tools to make our jobs easier, he will be missed in our department!",
+    name: "DeeDee Cleary",
+    designation: "Division Manager",
+    company: "Allstate Insurance Company",
     image:
       "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
   },
   {
-    testimonial: "Please tell everyone about the great work I do!",
-    name: "Third Name Here",
-    designation: "CEO",
-    company: "Company",
+    testimonial:
+      "...he always seems to find a solution that solves the problem at hand.",
+    name: "Unknown",
+    designation: "Classmate",
+    company: "Kent State University",
     image:
       "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
   },
