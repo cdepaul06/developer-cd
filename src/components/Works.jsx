@@ -103,7 +103,7 @@ const Works = () => {
           contact me!
         </motion.p>
       </div>
-
+      <a href='#projects' />
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
@@ -113,4 +113,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
