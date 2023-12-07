@@ -38,11 +38,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am currently a senior at Kent State University, and I am pursuing a BS
-        in Information Technology with a concentration in Application
-        Development (expected graduation Dec 2023). I recently began my career
-        as a developer at Regency Technologies, but I am always looking for new
-        opportunities to grow and learn.
+        I am currently a senior at Kent State University, and I am pursuing a
+        Bachelor of Science in Information Technology with a concentration in
+        Application Development (expected graduation Dec 2023). I recently began
+        my career as a developer at Regency Technologies, but I am always
+        looking for new opportunities to grow and learn.
+        <br /> <br />
+        My professional goals are to work for a company that has high standards
+        and wants to make the world a better place. Everyone dreams of working
+        for a big tech company, but I would be willing to work for a smaller
+        company that is making a big impact (such as my current employer). If
+        you have any questions, feel free to contact me!
         <br /> <br />I am a skilled developer that likes to build new and
         exciting things. I specialize in JavaScript, React.js, C#, and I have
         recently began learning Three.js. I am also well versed in Java, Visual
