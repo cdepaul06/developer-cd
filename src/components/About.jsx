@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -38,26 +38,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am currently a senior at Kent State University, and I am pursuing a
-        Bachelor of Science in Information Technology with a concentration in
-        Application Development (expected graduation Dec 2023). I recently began
-        my career as a developer at Regency Technologies, but I am always
-        looking for new opportunities to grow and learn.
-        <br /> <br />
-        My professional goals are to work for a company that has high standards
-        and wants to make the world a better place. Everyone dreams of working
-        for a big tech company, but I would be willing to work for a smaller
-        company that is making a big impact (such as my current employer). If
-        you have any questions, feel free to contact me!
+        I recently began my career as a developer at Regency Technologies, but I
+        am always looking for new opportunities to grow and learn.
         <br /> <br />I am a skilled developer that likes to build new and
-        exciting things. I specialize in JavaScript, React.js, C#, and I have
-        recently began learning Three.js. I am also well versed in Java, Visual
-        Basic, .NET, Redux, and API's. I also have experience with content
-        creation using Adobe Photoshop and Blender 3D. My current work is
-        developing an internal warehouse management system called PLWTO, which
-        uses React.js, Redux, and a C# API. I also enjoy freelance work, so if
-        you're looking for a developer, feel free to contact me and we will
-        create something amazing!
+        exciting things. The main languages and libraries I use are React and
+        C#. I am also well versed in Java, Visual Basic, .NET, Redux, and API's.
+        I also have experience with content creation using Adobe Photoshop and
+        Blender 3D. My current work is developing an internal warehouse
+        management system called PLWTO, which uses React, Redux, and a C# API. I
+        also enjoy freelance work, so if you're looking for a developer, feel
+        free to contact me and we will create something amazing!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
