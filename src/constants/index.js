@@ -151,8 +151,8 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer",
-    company_name: "Regency Technologies",
+    title: "Software Engineer",
+    company_name: "Iron Mountain (Regency Technologies)",
     icon: regency,
     iconBg: "#E6DEDD",
     date: "Nov 2022 - Present",
