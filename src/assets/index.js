@@ -27,7 +27,7 @@ import threejs from "./tech/threejs.svg";
 import ega from "./ega.png";
 import northStar from "./northStar.png";
 import allstate from "./allstate.png";
-import regency from "./regency.png";
+import ironmountain from "./ironmountain.png";
 
 // Project icons
 import plwto from "./plwto.png";
@@ -38,6 +38,7 @@ import coachingtool from "./coachingtool.png";
 import ptotracker from "./ptotracker.png";
 import developer from "./developer.png";
 import coleslawn from "./coleslawn.png";
+import uno from "./uno.png";
 
 export {
   logo,
@@ -64,7 +65,6 @@ export {
   ega,
   northStar,
   allstate,
-  regency,
   plwto,
   golfstats,
   spaceinvaders,
@@ -73,4 +73,6 @@ export {
   ptotracker,
   developer,
   coleslawn,
+  uno,
+  ironmountain,
 };

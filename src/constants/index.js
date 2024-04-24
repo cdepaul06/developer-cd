@@ -11,23 +11,19 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  threejs,
   ega,
   northStar,
   allstate,
-  regency,
+  ironmountain,
   plwto,
   golfstats,
   spaceinvaders,
-  timer,
   coachingtool,
   ptotracker,
   developer,
   coleslawn,
+  uno,
 } from "../assets";
 
 export const navLinks = [
@@ -102,10 +98,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -152,8 +144,8 @@ const experiences = [
   },
   {
     title: "Software Engineer",
-    company_name: "Iron Mountain (Regency Technologies)",
-    icon: regency,
+    company_name: "Iron Mountain",
+    icon: ironmountain,
     iconBg: "#E6DEDD",
     date: "Nov 2022 - Present",
     points: [
@@ -253,7 +245,7 @@ const projects = [
     description:
       "The current ongoing project that I am working on with my development team. It is a warehouse management system to help manage the inventory of a warehouse." +
       " It is designed using React.js, Redux, CSS, and a C# API backend. I am responsible for both the frontend and backend development of this project." +
-      " There is no link to the source code to this project as it is intellectual property of Regency Technologies.",
+      " There is no link to the source code to this project as it is intellectual property of Iron Mountain.",
     tags: [
       {
         name: "react.js",
@@ -285,6 +277,29 @@ const projects = [
       },
     ],
     image: plwto,
+  },
+  {
+    name: "UNO",
+    description:
+      "A project developed for my final in my Computer Science course at Kent State University. It was developed using Visual Studio Code, Vanilla JS, and CSS." +
+      " The game is a simple version of the card game UNO. It can be played with up to four players (1 human and 3 AI opponents)." +
+      " There are still a few bugs in the game because our group ran out of time to finish debugging the project prior to submitting it.",
+    tags: [
+      {
+        name: "vanillaJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vscode",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: uno,
+    source_code_link: "https://github.com/cdepaul06/CS-Final-Project",
   },
   {
     name: "Golf Statistic Tracker",
@@ -321,7 +336,7 @@ const projects = [
       " It was extremely fun to develop and the base functionality of the game is there, but it is missing a few key features. I plan to finish this project in the near future.",
     tags: [
       {
-        name: "visualstudiocode",
+        name: "vscode",
         color: "blue-text-gradient",
       },
       {
@@ -335,28 +350,6 @@ const projects = [
     ],
     image: spaceinvaders,
     source_code_link: "https://github.com/cdepaul06/spaceinvadersclone",
-  },
-  {
-    name: "Countdown Timer",
-    description:
-      "A mobile application developed as a project for my Mobile Applications class at Kent State University. It was built using Android Studio and Java." +
-      " The app allows the user to set a timer for a specific amount of time, and then the app will count down to zero.",
-    tags: [
-      {
-        name: "androidstudio",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "java",
-        color: "green-text-gradient",
-      },
-      {
-        name: "xml",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: timer,
-    source_code_link: "https://github.com/cdepaul06/Timer",
   },
   {
     name: "Allstate Coaching Tool",

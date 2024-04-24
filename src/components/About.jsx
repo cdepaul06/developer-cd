@@ -38,21 +38,21 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I recently began my career as a developer at Iron Mountain (previously
-        Regency Technologies - acquired by Iron Mountain), but I am always
-        looking for new opportunities to grow and learn.
+        I have been developing professionally for around two years. This
+        portfolio will showcase projects I have worked on during my time at Iron
+        Mountain, Kent State University, and some personal projects I have
+        worked on in my free time.
         <br /> <br />I am a skilled developer that likes to build new and
-        exciting things. I am considered a Full Stack Developer, I am able to
-        design the frontend with good UI/UX practices as well as the coinciding
-        logic in the backend API. The main languages and libraries I use are
-        React.js and C#, but I continue to challenge myself frequently to learn
-        new technologies and libraries. I am also well versed in Java, VB, .NET,
-        Redux, and API's. I also have experience with content creation using
-        Adobe Photoshop and Blender 3D. My current work is developing an
-        internal warehouse management system called PLWTO, which uses React,
-        Redux, and a backend C# API. I also enjoy freelance work, so if you're
-        looking for a developer, feel free to contact me and we will create
-        something amazing!
+        exciting things. As a Full Stack Developer, I am able to design frontend
+        applications with good UI/UX practices as well as the coinciding logic
+        in the backend API. The main languages and libraries I use are React.js
+        and C#, but I challenge myself frequently to learn new technologies,
+        libraries, and languages. I am also well versed in Java, VB, .NET, and
+        Redux. I also have experience with content creation using Adobe
+        Photoshop and Blender 3D. My current work is developing an internal
+        warehouse management system called PLWTO, which uses React, Redux, and a
+        backend C# API. I also enjoy freelance work, so if you're looking for a
+        developer, feel free to contact me and we will create something amazing!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

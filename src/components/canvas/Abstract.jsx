@@ -36,28 +36,7 @@ const Abstract = ({ isMobile }) => {
 };
 
 // ! This handles most of the 3D rendering, might need to make adjustments after you change the model
-const AbstractCanvas = () => {
-  const [isMobile, setisMobile] = useState(false);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-    // This sets the initial state of isMobile based on the result of the media query
-    setisMobile(mediaQuery.matches);
-
-    // This function updates the state of isMobile whenever the media query result changes
-    const handleMediaQueryChange = (e) => {
-      setisMobile(e.matches);
-    };
-
-    // This adds an event listener to call handleMediaQueryChange whenever the media query result changes
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-
-    // This removes the event listener when the component is unmounted
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
-
+const AbstractCanvas = ({ isMobile }) => {
   return (
     <Canvas
       frameloop='always'

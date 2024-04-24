@@ -14,9 +14,8 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  isMobile,
 }) => {
-  const isMobile = window.innerWidth < 768;
-
   const cardContent = (
     <>
       <div className='relative w-full h-[230px]'>
