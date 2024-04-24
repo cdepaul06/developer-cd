@@ -4,8 +4,6 @@ import { styles } from "../styles";
 import AbstractCanvas from "./canvas/Abstract";
 
 const Hero = ({ isMobile }) => {
-  console.log("### isMobile", isMobile);
-
   return (
     <section className='relative w-full h-screen mx-auto'>
       <div
@@ -26,8 +24,8 @@ const Hero = ({ isMobile }) => {
         </div>
       </div>
       <AbstractCanvas isMobile={isMobile} />
-      {isMobile ? (
-        <div className='relative xs:bottom-10 bottom-40 w-full flex justify-center items-center'>
+      {isMobile && (
+        <div className='relative xs:bottom-5 bottom-40 w-full flex justify-center items-center'>
           <a href='#about'>
             <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
               <motion.div
@@ -42,7 +40,7 @@ const Hero = ({ isMobile }) => {
             </div>
           </a>
         </div>
-      ) : null}
+      )}
     </section>
   );
 };

@@ -40,8 +40,8 @@ const About = () => {
       >
         I have been developing professionally for around two years. This
         portfolio will showcase projects I have worked on during my time at Iron
-        Mountain, Kent State University, and some personal projects I have
-        worked on in my free time.
+        Mountain, Kent State University, and Allstate Insurance Company. There
+        are also some personal projects I have worked on in my free time.
         <br /> <br />I am a skilled developer that likes to build new and
         exciting things. As a Full Stack Developer, I am able to design frontend
         applications with good UI/UX practices as well as the coinciding logic

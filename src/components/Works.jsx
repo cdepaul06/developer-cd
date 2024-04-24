@@ -96,10 +96,10 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           The following projects are things I have worked on during my time at
-          Regency Technologies, Allstate Insurance Company, and while attending
-          Kent State University. I am always looking for new projects to work
-          on, so if you have an idea, project, or problem to solve, feel free to
-          contact me!
+          Iron Mountain, Kent State University, and Allstate Insurance Company,
+          and while attending Kent State University. I am always looking for new
+          projects to work on, so if you have an idea, project, or problem to
+          solve, feel free to contact me!
         </motion.p>
       </div>
       <a href='#projects' />

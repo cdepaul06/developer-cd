@@ -34,8 +34,6 @@ const App = () => {
     };
   }, []);
 
-  console.log("### isMobile", isMobile);
-
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
